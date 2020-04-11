@@ -31,15 +31,15 @@ public class Dialog : MonoBehaviour
 
 			if (i == 0)
             {
-				yield return StartCoroutine(Wait(10f));
+				yield return StartCoroutine(Wait(2f));
 				yield return StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1));
 				yield return StartCoroutine(Wait(seconds));
 				yield return StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 0));
 			}
             else
             {
-				yield return StartCoroutine(Wait(1f));
-				yield return StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1));
+                yield return StartCoroutine(Wait(0.4f));
+                yield return StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 1));
 				yield return StartCoroutine(Wait(seconds));
 				yield return StartCoroutine(FadeCanvasGroup(uiElement, uiElement.alpha, 0));
 			}

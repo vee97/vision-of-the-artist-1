@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: 27c9e451352af44f7ba8a714f1969cd7
+  - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: 16aaf7978bdf84b7799ccdc37ffc89af
   - enabled: 0
@@ -29,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Comic.unity
     guid: a6e2e3fd8dfe94257ba8b23adab1025f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Hero.unity
     guid: 51eb14036b8a24c74972394e7db70c23
   m_configObjects:

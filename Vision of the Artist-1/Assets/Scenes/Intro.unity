@@ -1494,9 +1494,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1574374047}
   sentences:
-  - What would the world look like if everything was connected?
   - Imagine... you're travelling back in time,
   - to somewhere you've never been.
+  - to a time long ago.
+  - Let your imagination take flight.
+  - Close your eyes.
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 387569787}
