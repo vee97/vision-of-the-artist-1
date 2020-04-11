@@ -1,15 +1,31 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CustomHand
     - Dialog
+    - Draw
+    - DrawLine
+    - LoadLevelAfterTime
     - ONSPSettings
     - Oculus.Platform.PlatformSettings
+    - OculusSampleFramework.FingerTipPokeTool
+    - OculusSampleFramework.FingerTipPokeToolView
+    - OculusSampleFramework.HandsManager
+    - OculusSampleFramework.InteractableToolsCreator
+    - OculusSampleFramework.InteractableToolsInputRouter
+    - OculusSampleFramework.RayTool
+    - OculusSampleFramework.RayToolView
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
+    - OVRHand
     - OVRHeadsetEmulator
     - OVRManager
+    - OVRMesh
+    - OVRMeshRenderer
+    - OVRSkeleton
+    - OVRSkeletonRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
@@ -54,6 +70,14 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Management.XRManagerSettings
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -66,6 +90,180 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
   sceneClasses:
+    Assets/Scenes/Intro.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 15784}
+    - Class: 114
+      Script: {instanceID: 15864}
+    - Class: 114
+      Script: {instanceID: 16030}
+    - Class: 114
+      Script: {instanceID: 16114}
+    - Class: 114
+      Script: {instanceID: 16500}
+    - Class: 114
+      Script: {instanceID: 16594}
+    - Class: 114
+      Script: {instanceID: 16724}
+    - Class: 114
+      Script: {instanceID: 16876}
+    - Class: 114
+      Script: {instanceID: 17334}
+    - Class: 114
+      Script: {instanceID: 17432}
+    - Class: 114
+      Script: {instanceID: 17436}
+    - Class: 114
+      Script: {instanceID: 17776}
+    - Class: 114
+      Script: {instanceID: 18000}
+    - Class: 114
+      Script: {instanceID: 18096}
+    - Class: 114
+      Script: {instanceID: 18186}
+    - Class: 114
+      Script: {instanceID: 18464}
+    - Class: 114
+      Script: {instanceID: 18794}
+    - Class: 114
+      Script: {instanceID: 18802}
+    - Class: 114
+      Script: {instanceID: 52856}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/Nightmare.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 15784}
+    - Class: 114
+      Script: {instanceID: 15864}
+    - Class: 114
+      Script: {instanceID: 16030}
+    - Class: 114
+      Script: {instanceID: 16114}
+    - Class: 114
+      Script: {instanceID: 16454}
+    - Class: 114
+      Script: {instanceID: 16526}
+    - Class: 114
+      Script: {instanceID: 16594}
+    - Class: 114
+      Script: {instanceID: 16856}
+    - Class: 114
+      Script: {instanceID: 16876}
+    - Class: 114
+      Script: {instanceID: 17304}
+    - Class: 114
+      Script: {instanceID: 17334}
+    - Class: 114
+      Script: {instanceID: 17436}
+    - Class: 114
+      Script: {instanceID: 17438}
+    - Class: 114
+      Script: {instanceID: 17482}
+    - Class: 114
+      Script: {instanceID: 17592}
+    - Class: 114
+      Script: {instanceID: 18000}
+    - Class: 114
+      Script: {instanceID: 18186}
+    - Class: 114
+      Script: {instanceID: 18668}
+    - Class: 114
+      Script: {instanceID: 18794}
+    - Class: 114
+      Script: {instanceID: 52856}
+    - Class: 114
+      Script: {instanceID: 66272}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
     Assets/Scenes/Prologue.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -81,7 +279,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -127,6 +331,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 18608}
     - Class: 114
       Script: {instanceID: 18802}
+    - Class: 114
+      Script: {instanceID: 52856}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1976,7 +2182,21 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 1bdd86858af44687567f4a7baefee8f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadLevelAfterTime
+  - hash:
+      serializedVersion: 2
+      Hash: a2ff20192fd268e08fc6d973a3e856ae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DrawLine
   platform: 13
   scenePathNames:
   - Assets/Scenes/Prologue.unity
+  - Assets/Scenes/Intro.unity
+  - Assets/Scenes/Nightmare.unity
   playerPath: /Users/vivianwong/Documents/4 OCADU WINTER 2020/Quest Builds/VisionoftheArtist-002-prologue.apk
