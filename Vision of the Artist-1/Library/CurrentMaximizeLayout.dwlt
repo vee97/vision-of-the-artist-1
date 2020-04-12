@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 4045
+  controlID: 12208
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 4026
+  controlID: 12183
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 75.067474, y: 99.410355, z: 636.05054}
+    m_Target: {x: 376.5, y: 229, z: 0}
     speed: 2
-    m_Value: {x: 75.067474, y: 99.410355, z: 636.05054}
+    m_Value: {x: 376.5, y: 229, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -251,13 +251,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06923713, y: -0.023021128, z: 0.0016987331, w: -0.9973846}
+    m_Target: {x: -0.09291637, y: -0.07368918, z: 0.0069956537, w: -0.9929707}
     speed: 2
-    m_Value: {x: -0.069233574, y: -0.023019945, z: 0.0016986458, w: -0.99733335}
+    m_Value: {x: -0.09291157, y: -0.07368538, z: 0.006995293, w: -0.99291945}
   m_Size:
-    m_Target: 1303.693
+    m_Target: 1893.0874
     speed: 2
-    m_Value: 1303.693
+    m_Value: 1893.0874
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -474,7 +474,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 4046
+  controlID: 12148
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -532,7 +532,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3af9ffff44f9ffff38faffff2cfbffff1c430000
+      m_ExpandedIDs: 3ec4ffff48c4ffff80c4ffff6ec6ffff78c6ffff6cc7ffffe2c7fffffcc7ffffd2caffff10cbffff3ecbffff8acbffffc8cbffff28cdffff80cdffff4cceffffaaceffff34cfffff3cd1ffff0ad2ffff4ed2ffffccd2ffff56d3ffffaed3ffff04d6ffff70d6ffffc0d6ffff78d8ffffced8ffff12d9ffff6adaffffd4dafffff4dcffff86ddffff26e3ffff30e3ffff4ee3ffffc8e3ffff0ce4ffff6ae4ffff9ee4ffffc4e4ffff3ee5ffff82e5ffff3af9ffff44f9ffff38faffff2cfbffff1c430000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -621,21 +621,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Particle Assets/Materials 1
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Particle Assets/Materials 1
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision
     of the Artist-1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d8560000
-    m_LastClickedID: 22232
-    m_ExpandedIDs: 00000000b23d00006857000000ca9a3b
+    scrollPos: {x: 0, y: 4}
+    m_SelectedIDs: 94400000
+    m_LastClickedID: 16532
+    m_ExpandedIDs: 00000000b23d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -688,24 +688,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1c430000
-    m_LastClickedInstanceID: 17180
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 48c4ffff
+    m_LastClickedInstanceID: -15288
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000743b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Prologue
+      m_OriginalName: Prologue
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 17134
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -783,7 +783,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: 17180
+  m_LastInspectedObjectInstanceID: -15288
   m_LastVerticalScrollValue: 0
 --- !u!114 &16
 MonoBehaviour:

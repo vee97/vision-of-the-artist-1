@@ -1099,6 +1099,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
+      propertyPath: delayBeforeLoading
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 349490016927410812, guid: 2d0622729f011424587f5b59f76f04fe,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1573,11 +1577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1574374047}
   sentences:
-  - Somehow, you hold the memories of the present.
-  - You're a tribe leader, and yet, you've forgotten how to speak.
-  - 'You communicate through drawings on these walls. '
-  - What do you need to survive?
-  - '[Approach wall and pinch index and thumb finger to draw]'
+  - 'Imagine a world made of paper and ink. '
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 387569787}

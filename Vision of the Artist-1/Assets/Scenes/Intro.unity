@@ -1351,11 +1351,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1574374047}
   sentences:
+  - To be victorious in this battle, we must return to the past,
+  - and seek answers from within.
+  - 'WIth the power of our imagination. '
   - Imagine... you're travelling back in time,
   - to somewhere you've never been.
   - to a time long ago.
   - Let your imagination take flight.
-  - Close your eyes.
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 387569787}
@@ -2561,7 +2563,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 20
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 349490016927410812, guid: 2d0622729f011424587f5b59f76f04fe,
         type: 3}
