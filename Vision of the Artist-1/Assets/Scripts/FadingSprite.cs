@@ -8,12 +8,12 @@ public class FadingSprite : MonoBehaviour
     SpriteRenderer rend;
     public float delayBeforeFading = 10f;
     public float seconds = 3f;
-
+    private Color textColor;
 
     // textmeshproUGUI is used when working with canvas elements
     // textmeshpro is used for meshes in 3D world space
-    public TextMeshPro textMesh;
-    //private TextMeshPro textMesh;
+    //public TextMeshPro textMesh;
+    private TextMeshPro textMesh;
     //public Color myColor;
 
     // Start is called before the first frame update
@@ -26,21 +26,16 @@ public class FadingSprite : MonoBehaviour
 
         // GetComponent vs get components
         textMesh = GetComponentInChildren<TextMeshPro>();
-
         //textMesh = GetComponent<TextMeshPro>();
-        Debug.Log(textMesh.name);
-        Color textColor = textMesh.color;
+
+        textColor = textMesh.color;
         textColor.a = 0;
         // this line saved my ass
         textMesh.color = textColor;
+        //Debug.Log("Hello I am new:" +textMesh.name);
 
-        //transform.Find("childname")
-        //gameobject.transform.Find("ChildName")
-        //FindObjectOfType<TextMesh>();
-        //TextMeshPro mText = gameObject.GetComponent<TextMeshPro>();
-        //textMesh = GetComponent<TextMeshPro>();
         //Color textColor = textMesh.color;
-        //textColor.a = 0;
+
 
         StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
         //StartCoroutine(Fadein());
@@ -76,7 +71,8 @@ public class FadingSprite : MonoBehaviour
             rend.material.color = c;
 
             // change alpha of text to f
-            //myColor.a = f;
+            textColor.a = f;
+            textMesh.color = textColor;
 
             yield return new WaitForSeconds(0.05f);
         }
@@ -96,7 +92,8 @@ public class FadingSprite : MonoBehaviour
             rend.material.color = c;
 
             // change alpha of text to f
-            //myColor.a = f;
+            textColor.a = f;
+            textMesh.color = textColor;
             yield return new WaitForSeconds(0.05f);
         }
     }
