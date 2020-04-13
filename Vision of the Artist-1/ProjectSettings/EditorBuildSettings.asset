@@ -6,32 +6,38 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/HandsInteractionTrainScene Custom.unity
+    guid: 1c44a8961f79e48ecba07736e6324f52
+  - enabled: 0
     path: Assets/Scenes/Prologue.unity
     guid: 27c9e451352af44f7ba8a714f1969cd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Dreameater.unity
     guid: f30ad90af1906489caa6e07051012411
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro.unity
     guid: 16aaf7978bdf84b7799ccdc37ffc89af
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Awareness.unity
     guid: 1ccd9b36848584b53845859e171a8bf0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Intro2.unity
     guid: 8f888d075c6004661a563c254711b4e6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Ancient.unity
     guid: f037921682af049dd9e31c07e9772c0e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Forward.unity
     guid: 9f2ece515cf824095b50b5defeeed5e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Comic.unity
     guid: a6e2e3fd8dfe94257ba8b23adab1025f
-  - enabled: 1
-    path: Assets/Scenes/Hero.unity
+  - enabled: 0
+    path: Assets/Scenes/Battle.unity
     guid: 51eb14036b8a24c74972394e7db70c23
+  - enabled: 0
+    path: Assets/Scenes/TheEnd.unity
+    guid: 6e37987aa89604216b6ed1134cc120cb
   - enabled: 0
     path: Assets/Scenes/IntheSky.unity
     guid: c535e068955344e7eb3b36c496e56a0c

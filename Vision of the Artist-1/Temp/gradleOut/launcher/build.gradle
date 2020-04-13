@@ -18,7 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 28
-        applicationId 'com.VSWong.VisionoftheArtist002prologue'
+        applicationId 'com.VSWong.VisionoftheArtist002traincustom'
         ndk {
             abiFilters 'armeabi-v7a'
         }
