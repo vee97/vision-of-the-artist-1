@@ -1,0 +1,115 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+
+public class FadingSprite : MonoBehaviour
+{
+    SpriteRenderer rend;
+    public float delayBeforeFading = 10f;
+    public float seconds = 3f;
+
+
+    // textmeshproUGUI is used when working with canvas elements
+    // textmeshpro is used for meshes in 3D world space
+    public TextMeshPro textMesh;
+    //private TextMeshPro textMesh;
+    //public Color myColor;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        rend = GetComponent<SpriteRenderer>();
+        Color c = rend.color;
+        c.a = 0;
+        rend.material.color = c;
+
+        // GetComponent vs get components
+        textMesh = GetComponentInChildren<TextMeshPro>();
+
+        //textMesh = GetComponent<TextMeshPro>();
+        Debug.Log(textMesh.name);
+        Color textColor = textMesh.color;
+        textColor.a = 0;
+        // this line saved my ass
+        textMesh.color = textColor;
+
+        //transform.Find("childname")
+        //gameobject.transform.Find("ChildName")
+        //FindObjectOfType<TextMesh>();
+        //TextMeshPro mText = gameObject.GetComponent<TextMeshPro>();
+        //textMesh = GetComponent<TextMeshPro>();
+        //Color textColor = textMesh.color;
+        //textColor.a = 0;
+
+        StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
+        //StartCoroutine(Fadein());
+    }
+
+    IEnumerator Wait(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+    }
+
+    IEnumerator fadeTimerSprite(float delayBeforeFading, float seconds)
+    {
+        yield return StartCoroutine(Wait(delayBeforeFading));
+        yield return StartCoroutine(Fadein());
+        yield return StartCoroutine(Wait(seconds));
+        yield return StartCoroutine(Fadeout());
+    }
+
+    //IEnumerator fadeTimer3D()
+    //{
+    //    yield return StartCoroutine(Wait(2f));
+    //    // yield return StartCoroutine(Fadein(); 3d game object
+    //    yield return StartCoroutine(Wait(seconds));
+    //    // yield return StartCoroutine(Fadeout())
+    //}
+
+    IEnumerator Fadein()
+    {
+        for (float f = 0.05f; f <= 1; f += 0.05f)
+        {
+            Color c = rend.material.color;
+            c.a = f;
+            rend.material.color = c;
+
+            // change alpha of text to f
+            //myColor.a = f;
+
+            yield return new WaitForSeconds(0.05f);
+        }
+    }
+
+    public void startFadingIn()
+    {
+        StartCoroutine("Fadein");
+    }
+
+    IEnumerator Fadeout()
+    {
+        for (float f = 1f; f >= -0.05f; f -= 0.05f)
+        {
+            Color c = rend.material.color;
+            c.a = f;
+            rend.material.color = c;
+
+            // change alpha of text to f
+            //myColor.a = f;
+            yield return new WaitForSeconds(0.05f);
+        }
+    }
+
+    public void startFadingOut()
+    {
+        StartCoroutine("Fadeout");
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+    }
+
+}

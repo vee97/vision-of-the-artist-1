@@ -1,20 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class Fade : MonoBehaviour
+public class FadeInScript : MonoBehaviour
 {
 
     SpriteRenderer rend;
+    public TextMeshPro textMesh;
+
+    //public Color myColor;
 
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
-        Color c = rend.material.color;
-        c.a = 0f;
-        rend.material.color = c;
-        
+        textMesh = GetComponent<TextMeshPro>();
     }
 
     IEnumerator FadeIn()
@@ -24,7 +25,15 @@ public class Fade : MonoBehaviour
             Color c = rend.material.color;
             c.a = f;
             rend.material.color = c;
-            yield return new WaitForSeconds(0.05fs);
+
+            //Color myColor = textMesh.color;
+            //myColor.a = f;
+
+            //textMesh.color = myColor;
+            //myColor.a = 0f;
+            //textMesh.color = myColor;
+
+            yield return new WaitForSeconds(0.05f);
         }
     }
 
@@ -35,6 +44,6 @@ public class Fade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
