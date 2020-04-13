@@ -10,7 +10,7 @@ INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-arti
 INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 	package
-		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-122
+		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:70-117
 		INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	android:versionName
@@ -18,7 +18,7 @@ INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-arti
 		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
 		INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:123-169
+		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:118-164
 	android:versionCode
 		INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml
 		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:1-6:12
@@ -26,7 +26,7 @@ INJECTED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-arti
 	xmlns:android
 		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:11-69
 	android:installLocation
-		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:170-200
+		ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:3:165-195
 supports-screens
 ADDED from /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/AndroidManifest.xml:4:3-163
 	android:largeScreens
@@ -123,9 +123,9 @@ ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/visio
 	android:name
 		ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-56
 uses-feature#oculus.software.handtracking
-ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-39:36
+ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:5-39:35
 	android:required
-		ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:9-33
+		ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:9-32
 	android:name
 		ADDED from [:unityLibrary] /Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:9-52
 uses-permission#oculus.permission.handtracking

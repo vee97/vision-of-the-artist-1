@@ -1,36 +1,29 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonListener
+    - CompleteProject.EnemyAttack
+    - CompleteProject.EnemyHealth
+    - CompleteProject.EnemyMovement
     - CustomHand
-    - HandsActiveChecker
     - ONSPSettings
     - Oculus.Platform.PlatformSettings
     - OculusSampleFramework.ButtonController
     - OculusSampleFramework.ButtonTriggerZone
-    - OculusSampleFramework.ControllerBoxController
-    - OculusSampleFramework.CowController
     - OculusSampleFramework.FingerTipPokeTool
     - OculusSampleFramework.FingerTipPokeToolView
     - OculusSampleFramework.HandsManager
     - OculusSampleFramework.InteractableToolsCreator
     - OculusSampleFramework.InteractableToolsInputRouter
-    - OculusSampleFramework.PanelHMDFollower
     - OculusSampleFramework.RayTool
     - OculusSampleFramework.RayToolView
     - OculusSampleFramework.SelectionCylinder
-    - OculusSampleFramework.TrackSegment
-    - OculusSampleFramework.TrainButtonVisualController
-    - OculusSampleFramework.TrainCar
     - OculusSampleFramework.TrainCrossingController
-    - OculusSampleFramework.TrainLocomotive
-    - OculusSampleFramework.TrainTrack
-    - OculusSampleFramework.WindmillBladesController
-    - OculusSampleFramework.WindmillController
+    - VolumeHandler
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRControllerHelper
     - OVRHand
     - OVRHeadsetEmulator
     - OVRManager
@@ -68,12 +61,15 @@ ScriptsOnlyBuild:
     - UnityEditor.Experimental.TerrainAPI.ValueNoise
     - UnityEditor.Experimental.TerrainAPI.VoronoiNoise
     - UnityEditor.Experimental.TerrainAPI.WindErosionTool
+    Unity.TerrainTools.dll:
+    - TerrainGroup
     Unity.TextMeshPro.dll:
     - TMPro.TMP_ColorGradient
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -95,7 +91,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/HandsInteractionTrainScene Custom.unity:
+    Assets/Scenes/Battle.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -116,6 +112,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 49
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
@@ -132,6 +130,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
     - Class: 95
       Script: {instanceID: 0}
     - Class: 104
@@ -140,24 +140,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 109
       Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11516}
     - Class: 114
+      Script: {instanceID: 11652}
+    - Class: 114
       Script: {instanceID: 11686}
-    - Class: 114
-      Script: {instanceID: 11784}
-    - Class: 114
-      Script: {instanceID: 12030}
     - Class: 114
       Script: {instanceID: 12136}
     - Class: 114
-      Script: {instanceID: 12206}
-    - Class: 114
       Script: {instanceID: 12208}
-    - Class: 114
-      Script: {instanceID: 12216}
     - Class: 114
       Script: {instanceID: 12284}
     - Class: 114
@@ -165,15 +157,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 12552}
-    - Class: 114
       Script: {instanceID: 12562}
     - Class: 114
       Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12700}
+      Script: {instanceID: 12922}
     - Class: 114
       Script: {instanceID: 12958}
+    - Class: 114
+      Script: {instanceID: 13024}
     - Class: 114
       Script: {instanceID: 13044}
     - Class: 114
@@ -187,7 +179,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13346}
     - Class: 114
-      Script: {instanceID: 13440}
+      Script: {instanceID: 13450}
     - Class: 114
       Script: {instanceID: 13466}
     - Class: 114
@@ -201,23 +193,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14044}
     - Class: 114
-      Script: {instanceID: 14058}
-    - Class: 114
-      Script: {instanceID: 14070}
-    - Class: 114
       Script: {instanceID: 14264}
     - Class: 114
-      Script: {instanceID: 14420}
+      Script: {instanceID: 14314}
+    - Class: 114
+      Script: {instanceID: 14430}
     - Class: 114
       Script: {instanceID: 14440}
     - Class: 114
       Script: {instanceID: 14442}
     - Class: 114
-      Script: {instanceID: 14444}
+      Script: {instanceID: 14468}
     - Class: 114
       Script: {instanceID: 14504}
-    - Class: 114
-      Script: {instanceID: 14614}
     - Class: 114
       Script: {instanceID: 14634}
     - Class: 114
@@ -228,9 +216,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
@@ -238,11 +236,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
-    - Class: 215
+    - Class: 212
       Script: {instanceID: 0}
-    - Class: 220
+    - Class: 213
       Script: {instanceID: 0}
-    - Class: 258
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -2317,5 +2325,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/HandsInteractionTrainScene Custom.unity
-  playerPath: /Users/vivianwong/Documents/4 OCADU WINTER 2020/Quest Builds/VisionoftheArtist-002-prologue.apk
+  - Assets/Scenes/Battle.unity
+  playerPath: /Users/vivianwong/Documents/4 OCADU WINTER 2020/Quest Builds/VisionoftheArtist-002-battle.apk

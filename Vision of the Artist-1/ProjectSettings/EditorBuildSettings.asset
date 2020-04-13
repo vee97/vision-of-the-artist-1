@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HandsInteractionTrainScene Custom.unity
     guid: 1c44a8961f79e48ecba07736e6324f52
   - enabled: 0
@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Comic.unity
     guid: a6e2e3fd8dfe94257ba8b23adab1025f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 51eb14036b8a24c74972394e7db70c23
   - enabled: 0
