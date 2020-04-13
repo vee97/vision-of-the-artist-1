@@ -2635,6 +2635,11 @@ PrefabInstance:
       propertyPath: uiElement
       value: 
       objectReference: {fileID: 1574374049}
+    - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
+        type: 3}
+      propertyPath: sentences.Array.data[2]
+      value: 'With the power of our imagination. '
+      objectReference: {fileID: 0}
     - target: {fileID: 2438799060442102092, guid: 11721527d8a9a4f24978da6c1c2301e0,
         type: 3}
       propertyPath: m_LocalPosition.x
