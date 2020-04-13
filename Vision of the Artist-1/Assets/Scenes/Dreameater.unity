@@ -269,7 +269,8 @@ PrefabInstance:
       propertyPath: _meshType
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
 --- !u!1001 &346277195
 PrefabInstance:
@@ -5770,7 +5771,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: d14828bc87e1c4c84a89fb09f936396a, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
 --- !u!1 &959674508
 GameObject:
   m_ObjectHideFlags: 0
@@ -6002,7 +6003,7 @@ MonoBehaviour:
         m_MethodName: UpdateLineMaterial
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac,
+          m_ObjectArgument: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
@@ -6518,7 +6519,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: 65e6d27c001d840038aa30735455312f, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
 --- !u!1 &1373220877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,
