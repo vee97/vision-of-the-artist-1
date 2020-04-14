@@ -6,11 +6,9 @@
                 {
                     "source": "/Users/vivianwong/.gradle/caches/transforms-2/files-2.1/76c1918464d74ce4f685c5fa35e73b5d/res/values/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "2",
-                        "startOffsets": "53",
-                        "endColumns": "41",
-                        "endOffsets": "92"
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
                     },
                     "to": {
                         "startLines": "4",
@@ -23,12 +21,9 @@
                 {
                     "source": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "5,2,7",
-                        "startColumns": "0,0,0",
-                        "startOffsets": "190,53,288",
-                        "endLines": "6,4,10",
-                        "endColumns": "8,8,8",
-                        "endOffsets": "286,188,513"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
                         "startLines": "5,7,10",
@@ -42,11 +37,11 @@
                 {
                     "source": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "2,2",
-                        "startOffsets": "53,120",
-                        "endColumns": "66,65",
-                        "endOffsets": "117,183"
+                        "startLines": "2,-1",
+                        "startColumns": "2,-1",
+                        "startOffsets": "53,-1",
+                        "endColumns": "66,-1",
+                        "endOffsets": "117,-1"
                     },
                     "to": {
                         "startLines": "2,3",

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using OculusSampleFramework;
 using TMPro;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ public class FadingSprite : MonoBehaviour
     //public TextMeshPro textMesh;
     private TextMeshPro textMesh;
     //public Color myColor;
+
+    private MonoBehaviour script;
 
     // Start is called before the first frame update
     void Start()
@@ -39,13 +42,32 @@ public class FadingSprite : MonoBehaviour
         // if gameObject tag is "InteractBubble or Interacted"
         // StartCoroutine(FadeIn());
 
+        // check if gameObject has component button listener
+        // if it does, set button listener to disabled
+
+        script = gameObject.GetComponent<ButtonListener>();
+        
+        //Interactable script2 = gameObject.GetComponent<ButtonController>();
+
+        //if (gameObject.GetComponent<ButtonListener>() != null)
+        //if (script != null)
+        //{
+        //    script.enabled = false;
+        //    //script2.enabled = false; // nvm can't disable this script
+        //    // instead change Valid tool tips to none?
+
+        //}
+
+        // check if gameBoject is tagged with InteractBubble or Interacted
         if ((this.tag == "InteractBubble") || (this.tag == "Interacted")) 
         {
+            script.enabled = false;
             StartCoroutine(FadeInOnly(delayBeforeFading));
         }
 
         else
         {
+            script.enabled = false;
             StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
             //StartCoroutine(Fadein());
         }
@@ -70,13 +92,6 @@ public class FadingSprite : MonoBehaviour
         yield return StartCoroutine(Fadein());
     }
 
-    //IEnumerator fadeTimer3D()
-    //{
-    //    yield return StartCoroutine(Wait(2f));
-    //    // yield return StartCoroutine(Fadein(); 3d game object
-    //    yield return StartCoroutine(Wait(seconds));
-    //    // yield return StartCoroutine(Fadeout())
-    //}
 
     IEnumerator Fadein()
     {
@@ -92,6 +107,17 @@ public class FadingSprite : MonoBehaviour
 
             yield return new WaitForSeconds(0.05f);
         }
+        //turn on speech bubble game objects only after fade in animation is done
+        // NO it's actually gameObject get component Button Listener - turns on!!!
+        //MonoBehaviour script = gameObject.GetComponent<ButtonListener>();
+        //script.enabled = true;
+
+        //gameObject.bubbleListener
+        //if (gameObject.GetComponent<ButtonListener>() != null)
+        //{
+        //gameObject.GetComponent<ButtonListener>().enabled = true;
+        //}
+
     }
 
     public void startFadingIn()
