@@ -36,9 +36,19 @@ public class FadingSprite : MonoBehaviour
 
         //Color textColor = textMesh.color;
 
+        // if gameObject tag is "InteractBubble or Interacted"
+        // StartCoroutine(FadeIn());
 
-        StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
-        //StartCoroutine(Fadein());
+        if ((this.tag == "InteractBubble") || (this.tag == "Interacted")) 
+        {
+            StartCoroutine(FadeInOnly(delayBeforeFading));
+        }
+
+        else
+        {
+            StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
+            //StartCoroutine(Fadein());
+        }
     }
 
     IEnumerator Wait(float seconds)
@@ -52,6 +62,12 @@ public class FadingSprite : MonoBehaviour
         yield return StartCoroutine(Fadein());
         yield return StartCoroutine(Wait(seconds));
         yield return StartCoroutine(Fadeout());
+    }
+
+    IEnumerator FadeInOnly(float delayBeforeFading)
+    {
+        yield return StartCoroutine(Wait(delayBeforeFading));
+        yield return StartCoroutine(Fadein());
     }
 
     //IEnumerator fadeTimer3D()
@@ -95,7 +111,9 @@ public class FadingSprite : MonoBehaviour
             textColor.a = f;
             textMesh.color = textColor;
             yield return new WaitForSeconds(0.05f);
+           
         }
+        Destroy(this.gameObject);
     }
 
     public void startFadingOut()
