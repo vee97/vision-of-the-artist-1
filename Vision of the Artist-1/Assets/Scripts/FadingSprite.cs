@@ -170,6 +170,7 @@ public class FadingSprite : MonoBehaviour
         //{
         //gameObject.GetComponent<ButtonListener>().enabled = true;
         //}
+        findme.gameObject.SetActive(true);
 
     }
 
