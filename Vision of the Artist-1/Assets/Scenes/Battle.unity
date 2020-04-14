@@ -1877,7 +1877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 23
   seconds: 20
-  scriptToDisable: {fileID: 0}
 --- !u!1 &457258650 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1915544663283100, guid: 53a8ff55baf6b7d4e9516adbb544058c,
@@ -2006,7 +2005,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 14
   seconds: 3
-  scriptToDisable: {fileID: 457258652}
 --- !u!1 &465184930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4554,7 +4552,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780466854}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dc90a8e3f3544468a90569d49720474, type: 3}
   m_Name: 
@@ -4663,7 +4661,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 8
   seconds: 3
-  scriptToDisable: {fileID: 0}
 --- !u!1 &784309775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4890,7 +4887,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 850579004}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4dc90a8e3f3544468a90569d49720474, type: 3}
   m_Name: 
@@ -4982,7 +4979,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 11
   seconds: 3
-  scriptToDisable: {fileID: 0}
 --- !u!1 &870787189
 GameObject:
   m_ObjectHideFlags: 0
@@ -5168,7 +5164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 10
   seconds: 3
-  scriptToDisable: {fileID: 0}
 --- !u!1 &874119807
 GameObject:
   m_ObjectHideFlags: 0
@@ -5492,7 +5487,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 3
   seconds: 3
-  scriptToDisable: {fileID: 0}
 --- !u!212 &1005219874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6992,7 +6986,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 18
   seconds: 3
-  scriptToDisable: {fileID: 0}
 --- !u!4 &1467196233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
@@ -7561,7 +7554,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 15
   seconds: 15
-  scriptToDisable: {fileID: 0}
 --- !u!4 &1560600111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
@@ -8048,7 +8040,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delayBeforeFading: 2
   seconds: 6
-  scriptToDisable: {fileID: 0}
 --- !u!1 &1733813727
 GameObject:
   m_ObjectHideFlags: 0
