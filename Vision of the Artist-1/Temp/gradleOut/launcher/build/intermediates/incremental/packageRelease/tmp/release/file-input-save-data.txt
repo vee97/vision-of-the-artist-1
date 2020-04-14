@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 14 12:38:29 EDT 2020
+#Tue Apr 14 13:17:20 EDT 2020
 60.set=NATIVE_RESOURCE
 52.set=ASSET
 53.base=/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/build/intermediates/transforms/mergeJniLibs/release/0
