@@ -29,7 +29,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Forward.unity
     guid: 9f2ece515cf824095b50b5defeeed5e8
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Comic.unity
     guid: a6e2e3fd8dfe94257ba8b23adab1025f
   - enabled: 1
