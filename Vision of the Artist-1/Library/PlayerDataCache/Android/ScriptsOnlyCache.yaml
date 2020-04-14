@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CompleteProject.EnemyHealth
     - CompleteProject.EnemyMovement
     - CustomHand
+    - FadingSprite
     - ONSPSettings
     - Oculus.Platform.PlatformSettings
     - OculusSampleFramework.ButtonController
@@ -35,32 +36,16 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TerrainTools.Editor.dll:
     - UnityEditor.Experimental.TerrainAPI.BillowNoise
-    - UnityEditor.Experimental.TerrainAPI.BridgeTool
-    - UnityEditor.Experimental.TerrainAPI.CloneBrushTool
-    - UnityEditor.Experimental.TerrainAPI.ContrastTool
     - UnityEditor.Experimental.TerrainAPI.FbmFractalType
-    - UnityEditor.Experimental.TerrainAPI.MeshStampTool
     - UnityEditor.Experimental.TerrainAPI.NoiseBlitShaderGenerator
     - UnityEditor.Experimental.TerrainAPI.NoiseFillShaderGenerator
-    - UnityEditor.Experimental.TerrainAPI.NoiseHeightTool
     - UnityEditor.Experimental.TerrainAPI.NoneFractalType
-    - UnityEditor.Experimental.TerrainAPI.PaintHeightTool
-    - UnityEditor.Experimental.TerrainAPI.PaintHolesTool
-    - UnityEditor.Experimental.TerrainAPI.PaintTextureTool
     - UnityEditor.Experimental.TerrainAPI.PerlinNoise
     - UnityEditor.Experimental.TerrainAPI.RidgeNoise
-    - UnityEditor.Experimental.TerrainAPI.SetHeightTool
-    - UnityEditor.Experimental.TerrainAPI.SharpenPeaksTool
-    - UnityEditor.Experimental.TerrainAPI.SlopeFlattenTool
-    - UnityEditor.Experimental.TerrainAPI.SmoothHeightTool
-    - UnityEditor.Experimental.TerrainAPI.StampTool
     - UnityEditor.Experimental.TerrainAPI.StrataFractalType
-    - UnityEditor.Experimental.TerrainAPI.TerraceErosion
     - UnityEditor.Experimental.TerrainAPI.TerrainToolboxWindow
-    - UnityEditor.Experimental.TerrainAPI.ThermalErosionTool
     - UnityEditor.Experimental.TerrainAPI.ValueNoise
     - UnityEditor.Experimental.TerrainAPI.VoronoiNoise
-    - UnityEditor.Experimental.TerrainAPI.WindErosionTool
     Unity.TerrainTools.dll:
     - TerrainGroup
     Unity.TextMeshPro.dll:
@@ -80,16 +65,21 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Battle.unity:
     - Class: 1
@@ -141,11 +131,17 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11432}
+    - Class: 114
       Script: {instanceID: 11516}
     - Class: 114
       Script: {instanceID: 11652}
     - Class: 114
       Script: {instanceID: 11686}
+    - Class: 114
+      Script: {instanceID: 11708}
+    - Class: 114
+      Script: {instanceID: 11778}
     - Class: 114
       Script: {instanceID: 12136}
     - Class: 114
@@ -154,6 +150,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12284}
     - Class: 114
       Script: {instanceID: 12300}
+    - Class: 114
+      Script: {instanceID: 12420}
     - Class: 114
       Script: {instanceID: 12474}
     - Class: 114
@@ -170,6 +168,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13044}
     - Class: 114
       Script: {instanceID: 13076}
+    - Class: 114
+      Script: {instanceID: 13178}
     - Class: 114
       Script: {instanceID: 13182}
     - Class: 114
@@ -191,6 +191,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13792}
     - Class: 114
+      Script: {instanceID: 13986}
+    - Class: 114
       Script: {instanceID: 14044}
     - Class: 114
       Script: {instanceID: 14264}
@@ -209,7 +211,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14634}
     - Class: 114
+      Script: {instanceID: 14642}
+    - Class: 114
       Script: {instanceID: 14748}
+    - Class: 114
+      Script: {instanceID: 26758}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -243,6 +249,8 @@ ScriptsOnlyBuild:
     - Class: 218
       Script: {instanceID: 0}
     - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -2323,6 +2331,24 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c993e6b39d9667c29d35c5fdd98c6e4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeOut
+  - hash:
+      serializedVersion: 2
+      Hash: 731c06883a63d2658f965f1f19ae0d6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadingSprite
+  - hash:
+      serializedVersion: 2
+      Hash: c993e6b39d9667c29d35c5fdd98c6e4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FadeInScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Battle.unity
