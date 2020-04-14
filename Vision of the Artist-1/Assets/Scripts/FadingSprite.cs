@@ -17,11 +17,48 @@ public class FadingSprite : MonoBehaviour
     private TextMeshPro textMesh;
     //public Color myColor;
 
-    private MonoBehaviour script;
+    //private MonoBehaviour scriptToDisable;
+
+    //public MonoBehaviour scriptToDisable;
+    //private MonoBehaviour SelectionCylinderScript;
+    private GameObject SelectionCylinderObject;
+
+    private Transform findme;
+    private Transform findmechild;
 
     // Start is called before the first frame update
     void Start()
     {
+        //private Transform targete = transform.FindWithTag("Highlight");
+
+        Transform t = gameObject.transform;
+
+        //GameObject t = gameObject.transform.FindGameOBject
+
+        //for (int i = 0; i < t.childCount; i++)
+        //{
+        //    if (t.GetChild(i).gameObject.tag == "Highlight")
+        //    {
+        //        findme = t.GetChild(i);
+        //        //return t.GetChild(i).gameObject;
+        //    }
+        //    //return null;
+        //}
+
+        //transform.FindChild(GameObject.FindGameObjectWithTag("u").transform.name);
+
+        findme = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
+        Debug.Log("Found me!:" + findme);
+
+        //findmechild = findme.Find("ChildName");
+        //findmechild.gameObject.SetActive(false);
+
+        findme.gameObject.SetActive(false);
+
+        // transform - and it's getting the right game object
+        // but i want the game object - and set active
+        
+        
         rend = GetComponent<SpriteRenderer>();
         Color c = rend.color;
         c.a = 0;
@@ -37,6 +74,15 @@ public class FadingSprite : MonoBehaviour
         textMesh.color = textColor;
         //Debug.Log("Hello I am new:" +textMesh.name);
 
+        
+        SelectionCylinderObject = GameObject.FindGameObjectWithTag("Highlight");
+        SelectionCylinderObject.SetActive(false);
+
+        //SelectionCylinderObject = FindObjectOfType<SelectionCylinder>();
+
+        // find object with 
+        //= GetComponentInChildren<TextMeshPro>();
+
         //Color textColor = textMesh.color;
 
         // if gameObject tag is "InteractBubble or Interacted"
@@ -45,8 +91,9 @@ public class FadingSprite : MonoBehaviour
         // check if gameObject has component button listener
         // if it does, set button listener to disabled
 
-        script = gameObject.GetComponent<ButtonListener>();
-        
+        //scriptToDisable = gameObject.GetComponent<ButtonListener>();
+        //scriptToDisable.enabled = false;
+
         //Interactable script2 = gameObject.GetComponent<ButtonController>();
 
         //if (gameObject.GetComponent<ButtonListener>() != null)
@@ -61,16 +108,21 @@ public class FadingSprite : MonoBehaviour
         // check if gameBoject is tagged with InteractBubble or Interacted
         if ((this.tag == "InteractBubble") || (this.tag == "Interacted")) 
         {
-            script.enabled = false;
+            //scriptToDisable.enabled = false;
+            //gameObject.GetComponent<ButtonListener>().enabled = false;
+
             StartCoroutine(FadeInOnly(delayBeforeFading));
         }
 
         else
         {
-            script.enabled = false;
+            //scriptToDisable.enabled = false;
+            gameObject.GetComponent<ButtonListener>().enabled = false;
             StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
             //StartCoroutine(Fadein());
         }
+        //scriptToDisable.enabled = false;
+        // going to try to put it inside the IEnumerator instead afterwards
     }
 
     IEnumerator Wait(float seconds)
@@ -80,6 +132,7 @@ public class FadingSprite : MonoBehaviour
 
     IEnumerator fadeTimerSprite(float delayBeforeFading, float seconds)
     {
+        //scriptToDisable.enabled = false;
         yield return StartCoroutine(Wait(delayBeforeFading));
         yield return StartCoroutine(Fadein());
         yield return StartCoroutine(Wait(seconds));
@@ -88,6 +141,7 @@ public class FadingSprite : MonoBehaviour
 
     IEnumerator FadeInOnly(float delayBeforeFading)
     {
+        //scriptToDisable.enabled = false;
         yield return StartCoroutine(Wait(delayBeforeFading));
         yield return StartCoroutine(Fadein());
     }
@@ -112,7 +166,6 @@ public class FadingSprite : MonoBehaviour
         //MonoBehaviour script = gameObject.GetComponent<ButtonListener>();
         //script.enabled = true;
 
-        //gameObject.bubbleListener
         //if (gameObject.GetComponent<ButtonListener>() != null)
         //{
         //gameObject.GetComponent<ButtonListener>().enabled = true;
