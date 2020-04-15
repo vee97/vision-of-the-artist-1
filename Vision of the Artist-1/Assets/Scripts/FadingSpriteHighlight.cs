@@ -16,8 +16,9 @@ public class FadingSpriteHighlight : MonoBehaviour
     // textmeshpro is used for meshes in 3D world space
     private TextMeshPro textMesh2;
 
-    private Transform findme;
+    //private Transform findme;
     //private Transform findmechild;
+    private Transform findmeplease;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,20 @@ public class FadingSpriteHighlight : MonoBehaviour
         //Debug.Log("Found me!:" + findme);
 
         //findme.gameObject.SetActive(false);
+
+        // so this isn't working suddenly anymore
+        //Transform findmeplease = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
+
+        //findmeplease = gameObject.transform;
+
+        Transform t = gameObject.transform;
+
+        findmeplease = gameObject.transform.Find(GameObject.FindGameObjectWithTag("Highlight").gameObject.name);
+
+        //findmeplease = t.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
+
+        Debug.Log("Found me again!:" + findmeplease);
+        findmeplease.gameObject.SetActive(false);
 
         rend2 = GetComponent<SpriteRenderer>();
         Color c2 = rend2.color;
