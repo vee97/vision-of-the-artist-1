@@ -1985,13 +1985,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!4 &457258654 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
-    type: 3}
-  m_PrefabInstance: {fileID: 29631534}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &457258655
+--- !u!114 &457258653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2000,10 +1994,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 457258650}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayBeforeFading2: 10
+  seconds2: 3
+--- !u!4 &457258654 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
+    type: 3}
+  m_PrefabInstance: {fileID: 29631534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &457258656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457258650}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b37c82056b8641cc84320d6d010c739, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading: 14
+  delayBeforeFading: 10
   seconds: 3
 --- !u!1 &465184930
 GameObject:
@@ -4656,11 +4670,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 780466854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b37c82056b8641cc84320d6d010c739, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading: 8
-  seconds: 3
+  delayBeforeFading2: 3
+  seconds2: 3
 --- !u!1 &784309775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4959,13 +4973,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!4 &850579008 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
-    type: 3}
-  m_PrefabInstance: {fileID: 269787469}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &850579009
+--- !u!114 &850579007
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4974,11 +4982,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 850579004}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b37c82056b8641cc84320d6d010c739, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading: 11
-  seconds: 3
+  delayBeforeFading2: 5
+  seconds2: 3
+--- !u!4 &850579008 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
+    type: 3}
+  m_PrefabInstance: {fileID: 269787469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &870787189
 GameObject:
   m_ObjectHideFlags: 0
@@ -7986,46 +8000,13 @@ MonoBehaviour:
       m_Calls: []
   contactEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   actionEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1768490653}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   defaultEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1648894780
 MonoBehaviour:
   m_ObjectHideFlags: 0

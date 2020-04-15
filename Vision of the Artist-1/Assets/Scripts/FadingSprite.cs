@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using OculusSampleFramework;
 using TMPro;
 using UnityEngine;
 
@@ -17,48 +16,9 @@ public class FadingSprite : MonoBehaviour
     private TextMeshPro textMesh;
     //public Color myColor;
 
-    //private MonoBehaviour scriptToDisable;
-
-    //public MonoBehaviour scriptToDisable;
-    //private MonoBehaviour SelectionCylinderScript;
-    private GameObject SelectionCylinderObject;
-
-    private Transform findme;
-    private Transform findmechild;
-
     // Start is called before the first frame update
     void Start()
     {
-        //private Transform targete = transform.FindWithTag("Highlight");
-
-        Transform t = gameObject.transform;
-
-        //GameObject t = gameObject.transform.FindGameOBject
-
-        //for (int i = 0; i < t.childCount; i++)
-        //{
-        //    if (t.GetChild(i).gameObject.tag == "Highlight")
-        //    {
-        //        findme = t.GetChild(i);
-        //        //return t.GetChild(i).gameObject;
-        //    }
-        //    //return null;
-        //}
-
-        //transform.FindChild(GameObject.FindGameObjectWithTag("u").transform.name);
-
-        findme = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
-        Debug.Log("Found me!:" + findme);
-
-        //findmechild = findme.Find("ChildName");
-        //findmechild.gameObject.SetActive(false);
-
-        findme.gameObject.SetActive(false);
-
-        // transform - and it's getting the right game object
-        // but i want the game object - and set active
-        
-        
         rend = GetComponent<SpriteRenderer>();
         Color c = rend.color;
         c.a = 0;
@@ -74,55 +34,11 @@ public class FadingSprite : MonoBehaviour
         textMesh.color = textColor;
         //Debug.Log("Hello I am new:" +textMesh.name);
 
-        
-        SelectionCylinderObject = GameObject.FindGameObjectWithTag("Highlight");
-        SelectionCylinderObject.SetActive(false);
-
-        //SelectionCylinderObject = FindObjectOfType<SelectionCylinder>();
-
-        // find object with 
-        //= GetComponentInChildren<TextMeshPro>();
-
         //Color textColor = textMesh.color;
 
-        // if gameObject tag is "InteractBubble or Interacted"
-        // StartCoroutine(FadeIn());
 
-        // check if gameObject has component button listener
-        // if it does, set button listener to disabled
-
-        //scriptToDisable = gameObject.GetComponent<ButtonListener>();
-        //scriptToDisable.enabled = false;
-
-        //Interactable script2 = gameObject.GetComponent<ButtonController>();
-
-        //if (gameObject.GetComponent<ButtonListener>() != null)
-        //if (script != null)
-        //{
-        //    script.enabled = false;
-        //    //script2.enabled = false; // nvm can't disable this script
-        //    // instead change Valid tool tips to none?
-
-        //}
-
-        // check if gameBoject is tagged with InteractBubble or Interacted
-        if ((this.tag == "InteractBubble") || (this.tag == "Interacted")) 
-        {
-            //scriptToDisable.enabled = false;
-            //gameObject.GetComponent<ButtonListener>().enabled = false;
-
-            StartCoroutine(FadeInOnly(delayBeforeFading));
-        }
-
-        else
-        {
-            //scriptToDisable.enabled = false;
-            gameObject.GetComponent<ButtonListener>().enabled = false;
-            StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
-            //StartCoroutine(Fadein());
-        }
-        //scriptToDisable.enabled = false;
-        // going to try to put it inside the IEnumerator instead afterwards
+        StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
+        //StartCoroutine(Fadein());
     }
 
     IEnumerator Wait(float seconds)
@@ -132,20 +48,19 @@ public class FadingSprite : MonoBehaviour
 
     IEnumerator fadeTimerSprite(float delayBeforeFading, float seconds)
     {
-        //scriptToDisable.enabled = false;
         yield return StartCoroutine(Wait(delayBeforeFading));
         yield return StartCoroutine(Fadein());
         yield return StartCoroutine(Wait(seconds));
         yield return StartCoroutine(Fadeout());
     }
 
-    IEnumerator FadeInOnly(float delayBeforeFading)
-    {
-        //scriptToDisable.enabled = false;
-        yield return StartCoroutine(Wait(delayBeforeFading));
-        yield return StartCoroutine(Fadein());
-    }
-
+    //IEnumerator fadeTimer3D()
+    //{
+    //    yield return StartCoroutine(Wait(2f));
+    //    // yield return StartCoroutine(Fadein(); 3d game object
+    //    yield return StartCoroutine(Wait(seconds));
+    //    // yield return StartCoroutine(Fadeout())
+    //}
 
     IEnumerator Fadein()
     {
@@ -161,17 +76,6 @@ public class FadingSprite : MonoBehaviour
 
             yield return new WaitForSeconds(0.05f);
         }
-        //turn on speech bubble game objects only after fade in animation is done
-        // NO it's actually gameObject get component Button Listener - turns on!!!
-        //MonoBehaviour script = gameObject.GetComponent<ButtonListener>();
-        //script.enabled = true;
-
-        //if (gameObject.GetComponent<ButtonListener>() != null)
-        //{
-        //gameObject.GetComponent<ButtonListener>().enabled = true;
-        //}
-        findme.gameObject.SetActive(true);
-
     }
 
     public void startFadingIn()
@@ -191,9 +95,7 @@ public class FadingSprite : MonoBehaviour
             textColor.a = f;
             textMesh.color = textColor;
             yield return new WaitForSeconds(0.05f);
-           
         }
-        Destroy(this.gameObject);
     }
 
     public void startFadingOut()
