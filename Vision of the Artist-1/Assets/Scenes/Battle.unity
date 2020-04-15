@@ -1997,8 +1997,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading2: 10
-  seconds2: 3
+  delayBeforeFading: 10
+  seconds: 3
+  findme: {fileID: 0}
 --- !u!4 &457258654 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,
@@ -4673,8 +4674,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading2: 3
-  seconds2: 3
+  delayBeforeFading: 10
+  seconds: 3
+  findme: {fileID: 0}
 --- !u!1 &784309775
 GameObject:
   m_ObjectHideFlags: 0
@@ -4985,8 +4987,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c987827da05042b58b781abededac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayBeforeFading2: 5
-  seconds2: 3
+  delayBeforeFading: 10
+  seconds: 3
+  findme: {fileID: 784309775}
 --- !u!4 &850579008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4276719013636934, guid: 53a8ff55baf6b7d4e9516adbb544058c,

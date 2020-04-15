@@ -1,139 +1,206 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using OculusSampleFramework;
 using TMPro;
-
+using UnityEngine;
 
 public class FadingSpriteHighlight : MonoBehaviour
 {
-
-    SpriteRenderer rend2;
-    public float delayBeforeFading2 = 10f;
-    public float seconds2 = 3f;
-    private Color textColor2;
+    SpriteRenderer rend;
+    public float delayBeforeFading = 10f;
+    public float seconds = 3f;
+    private Color textColor;
 
     // textmeshproUGUI is used when working with canvas elements
     // textmeshpro is used for meshes in 3D world space
-    private TextMeshPro textMesh2;
+    //public TextMeshPro textMesh;
+    private TextMeshPro textMesh;
+    //public Color myColor;
+
+    //private MonoBehaviour scriptToDisable;
+
+    //public MonoBehaviour scriptToDisable;
+    //private MonoBehaviour SelectionCylinderScript;
+    private GameObject SelectionCylinderObject;
 
     //private Transform findme;
     //private Transform findmechild;
-    private Transform findmeplease;
+
+    public GameObject findme;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Transform t = gameObject.transform;
+        //private Transform targete = transform.FindWithTag("Highlight");
+
+        Transform t = gameObject.transform;
+
+        //GameObject t = gameObject.transform.FindGameOBject
+
+        //for (int i = 0; i < t.childCount; i++)
+        //{
+        //    if (t.GetChild(i).gameObject.tag == "Highlight")
+        //    {
+        //        findme = t.GetChild(i);
+        //        //return t.GetChild(i).gameObject;
+        //    }
+        //    //return null;
+        //}
 
         //transform.FindChild(GameObject.FindGameObjectWithTag("u").transform.name);
 
         //findme = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
-        //findme = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
         //Debug.Log("Found me!:" + findme);
 
-        //findme.gameObject.SetActive(false);
+        //findmechild = findme.Find("ChildName");
+        //findmechild.gameObject.SetActive(false);
 
-        // so this isn't working suddenly anymore
-        //Transform findmeplease = transform.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
+        findme.gameObject.SetActive(false);
 
-        //findmeplease = gameObject.transform;
+        // transform - and it's getting the right game object
+        // but i want the game object - and set active
 
-        Transform t = gameObject.transform;
 
-        findmeplease = gameObject.transform.Find(GameObject.FindGameObjectWithTag("Highlight").gameObject.name);
+        rend = GetComponent<SpriteRenderer>();
+        Color c = rend.color;
+        c.a = 0;
+        rend.material.color = c;
 
-        //findmeplease = t.Find(GameObject.FindGameObjectWithTag("Highlight").transform.name);
+        // GetComponent vs get components
+        textMesh = GetComponentInChildren<TextMeshPro>();
+        //textMesh = GetComponent<TextMeshPro>();
 
-        Debug.Log("Found me again!:" + findmeplease);
-        findmeplease.gameObject.SetActive(false);
+        textColor = textMesh.color;
+        textColor.a = 0;
+        // this line saved my ass
+        textMesh.color = textColor;
+        //Debug.Log("Hello I am new:" +textMesh.name);
 
-        rend2 = GetComponent<SpriteRenderer>();
-        Color c2 = rend2.color;
-        c2.a = 0;
-        rend2.material.color = c2;
 
-        textMesh2 = GetComponentInChildren<TextMeshPro>();
+        SelectionCylinderObject = GameObject.FindGameObjectWithTag("Highlight");
+        SelectionCylinderObject.SetActive(false);
 
-        textColor2 = textMesh2.color;
-        textColor2.a = 0;
-        textMesh2.color = textColor2;
+        //SelectionCylinderObject = FindObjectOfType<SelectionCylinder>();
 
-        // check if gameobject is tagged with InteractBubble or Interacted
+        // find object with 
+        //= GetComponentInChildren<TextMeshPro>();
+
+        //Color textColor = textMesh.color;
+
+        // if gameObject tag is "InteractBubble or Interacted"
+        // StartCoroutine(FadeIn());
+
+        // check if gameObject has component button listener
+        // if it does, set button listener to disabled
+
+        //scriptToDisable = gameObject.GetComponent<ButtonListener>();
+        //scriptToDisable.enabled = false;
+
+        //Interactable script2 = gameObject.GetComponent<ButtonController>();
+
+        //if (gameObject.GetComponent<ButtonListener>() != null)
+        //if (script != null)
+        //{
+        //    script.enabled = false;
+        //    //script2.enabled = false; // nvm can't disable this script
+        //    // instead change Valid tool tips to none?
+
+        //}
+
+        // check if gameBoject is tagged with InteractBubble or Interacted
         if ((this.tag == "InteractBubble") || (this.tag == "Interacted"))
         {
-            StartCoroutine(FadeInOnly2(delayBeforeFading2));
+            //scriptToDisable.enabled = false;
+            //gameObject.GetComponent<ButtonListener>().enabled = false;
+
+            StartCoroutine(FadeInOnly(delayBeforeFading));
         }
 
         else
         {
-            StartCoroutine(fadeTimerSprite2(delayBeforeFading2, seconds2));
+            //scriptToDisable.enabled = false;
+            gameObject.GetComponent<ButtonListener>().enabled = false;
+            StartCoroutine(fadeTimerSprite(delayBeforeFading, seconds));
+            //StartCoroutine(Fadein());
         }
+        //scriptToDisable.enabled = false;
+        // going to try to put it inside the IEnumerator instead afterwards
     }
 
-
-    IEnumerator Wait2(float seconds2)
+    IEnumerator Wait(float seconds)
     {
-        yield return new WaitForSeconds(seconds2);
+        yield return new WaitForSeconds(seconds);
     }
 
-    IEnumerator fadeTimerSprite2(float delayBeforeFading2, float seconds2)
+    IEnumerator fadeTimerSprite(float delayBeforeFading, float seconds)
     {
-        yield return StartCoroutine(Wait2(delayBeforeFading2));
-        yield return StartCoroutine(Fadein2());
-        yield return StartCoroutine(Wait2(seconds2));
-        yield return StartCoroutine(Fadeout2());
+        //scriptToDisable.enabled = false;
+        yield return StartCoroutine(Wait(delayBeforeFading));
+        yield return StartCoroutine(Fadein());
+        yield return StartCoroutine(Wait(seconds));
+        yield return StartCoroutine(Fadeout());
     }
 
-    IEnumerator FadeInOnly2(float delayBeforeFading2)
+    IEnumerator FadeInOnly(float delayBeforeFading)
     {
-        yield return StartCoroutine(Wait2(delayBeforeFading2));
-        yield return StartCoroutine(Fadein2());
+        //scriptToDisable.enabled = false;
+        yield return StartCoroutine(Wait(delayBeforeFading));
+        yield return StartCoroutine(Fadein());
     }
 
 
-    IEnumerator Fadein2()
+    IEnumerator Fadein()
     {
         for (float f = 0.05f; f <= 1; f += 0.05f)
         {
-            Color c2 = rend2.material.color;
-            c2.a = f;
-            rend2.material.color = c2;
+            Color c = rend.material.color;
+            c.a = f;
+            rend.material.color = c;
 
             // change alpha of text to f
-            textColor2.a = f;
-            textMesh2.color = textColor2;
+            textColor.a = f;
+            textMesh.color = textColor;
 
             yield return new WaitForSeconds(0.05f);
         }
-        //findme.gameObject.SetActive(true);
+        //turn on speech bubble game objects only after fade in animation is done
+        // NO it's actually gameObject get component Button Listener - turns on!!!
+        //MonoBehaviour script = gameObject.GetComponent<ButtonListener>();
+        //script.enabled = true;
+
+        //if (gameObject.GetComponent<ButtonListener>() != null)
+        //{
+        //gameObject.GetComponent<ButtonListener>().enabled = true;
+        //}
+        findme.gameObject.SetActive(true);
 
     }
 
-    public void startFadingIn2()
+    public void startFadingIn()
     {
-        StartCoroutine("Fadein2");
+        StartCoroutine("Fadein");
     }
 
-    IEnumerator Fadeout2()
+    IEnumerator Fadeout()
     {
         for (float f = 1f; f >= -0.05f; f -= 0.05f)
         {
-            Color c2 = rend2.material.color;
-            c2.a = f;
-            rend2.material.color = c2;
+            Color c = rend.material.color;
+            c.a = f;
+            rend.material.color = c;
 
             // change alpha of text to f
-            textColor2.a = f;
-            textMesh2.color = textColor2;
+            textColor.a = f;
+            textMesh.color = textColor;
             yield return new WaitForSeconds(0.05f);
 
         }
         Destroy(this.gameObject);
     }
 
-    public void startFadingOut2()
+    public void startFadingOut()
     {
-        StartCoroutine("Fadeout2");
+        StartCoroutine("Fadeout");
     }
 
 
