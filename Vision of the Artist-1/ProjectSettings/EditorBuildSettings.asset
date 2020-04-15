@@ -35,7 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 51eb14036b8a24c74972394e7db70c23
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TheEnd.unity
     guid: 6e37987aa89604216b6ed1134cc120cb
   - enabled: 0
