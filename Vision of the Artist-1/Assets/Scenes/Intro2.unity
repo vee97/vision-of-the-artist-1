@@ -184,7 +184,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: 65e6d27c001d840038aa30735455312f, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
 --- !u!1 &179452895
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,7 +962,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: d14828bc87e1c4c84a89fb09f936396a, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
 --- !u!1 &702922667
 GameObject:
   m_ObjectHideFlags: 0

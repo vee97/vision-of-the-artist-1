@@ -1313,6 +1313,7 @@ MonoBehaviour:
   - What if I told you, you already have that power?
   - Look up to the sky.
   - There are millions of possibilities waiting for you.
+  - But first, there's something you have to overcome.
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 387569787}
@@ -2001,7 +2002,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e1ef7925ad99a426cbde7140029956ba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c565e62dfe790480ebf3732ba844fbba, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2581,7 +2582,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 25
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 349490016927410812, guid: 2d0622729f011424587f5b59f76f04fe,
         type: 3}
