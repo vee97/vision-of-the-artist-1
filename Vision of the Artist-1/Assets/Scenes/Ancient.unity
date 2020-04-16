@@ -1163,6 +1163,10 @@ PrefabInstance:
       propertyPath: delayBeforeLoading
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
+      propertyPath: musicAnim
+      value: 
+      objectReference: {fileID: 1518333789}
     - target: {fileID: 349490016927410808, guid: 2d0622729f011424587f5b59f76f04fe,
         type: 3}
       propertyPath: m_Camera
@@ -2333,6 +2337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1518333787}
   - component: {fileID: 1518333788}
+  - component: {fileID: 1518333789}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -2450,6 +2455,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1518333789
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518333786}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ed02e954afe64e9698f2cdbb729fee9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1567090341
 GameObject:
   m_ObjectHideFlags: 0
