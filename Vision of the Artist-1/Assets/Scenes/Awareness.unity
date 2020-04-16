@@ -226,6 +226,10 @@ PrefabInstance:
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2100000, guid: b6e63930612cc491cb11f7fd08c5a96c, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
       value: OVRHandPrefab

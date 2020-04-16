@@ -1,4 +1,4 @@
-com.VSWong.VisionoftheArtist004battle
+com.VSWong.VisionoftheArtist004prologue
 mipmap app_icon
 mipmap app_icon_round
 mipmap ic_launcher_background

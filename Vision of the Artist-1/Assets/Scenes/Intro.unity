@@ -2763,7 +2763,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: musicAnim
@@ -2886,7 +2886,27 @@ PrefabInstance:
     - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
         type: 3}
       propertyPath: sentences.Array.data[2]
-      value: 'With the power of our imagination. '
+      value: With the power of our imagination,
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
+        type: 3}
+      propertyPath: sentences.Array.data[5]
+      value: to somewhere you've never been.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
+        type: 3}
+      propertyPath: sentences.Array.data[6]
+      value: to a time long ago.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
+        type: 3}
+      propertyPath: sentences.Array.data[4]
+      value: Imagine... you're travelling back in time,
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438799060442102091, guid: 11721527d8a9a4f24978da6c1c2301e0,
+        type: 3}
+      propertyPath: sentences.Array.data[3]
+      value: we can visit these realms for a moment in time.
       objectReference: {fileID: 0}
     - target: {fileID: 2438799060442102092, guid: 11721527d8a9a4f24978da6c1c2301e0,
         type: 3}

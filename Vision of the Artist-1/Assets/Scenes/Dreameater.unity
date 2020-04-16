@@ -6927,6 +6927,7 @@ MonoBehaviour:
   - Secretly slowing you or even stopping you from pursuing your goals.
   - What does your Dream Eater look like?
   - '[Pinch your index and thumb to draw and add your Dream Eater to the scene]'
+  - Before your dream ends...
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 0}
