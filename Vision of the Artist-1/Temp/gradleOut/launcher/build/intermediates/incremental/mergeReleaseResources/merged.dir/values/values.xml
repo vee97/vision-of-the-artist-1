@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Vision of the Artist-003-prologue</string>
+    <string name="app_name">Vision of the Artist-004-battle</string>
     <string name="game_view_content_description">Game view</string>
     <string name="lib_name">GearVR</string>
     <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
