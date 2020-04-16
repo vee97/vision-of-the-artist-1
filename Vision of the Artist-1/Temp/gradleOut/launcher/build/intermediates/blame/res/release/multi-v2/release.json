@@ -1,0 +1,86 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/build/intermediates/res/merged/release/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/vivianwong/.gradle/caches/transforms-2/files-2.1/76c1918464d74ce4f685c5fa35e73b5d/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "194",
+                        "endColumns": "43",
+                        "endOffsets": "233"
+                    }
+                },
+                {
+                    "source": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "5,7,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "238,338,476",
+                        "endLines": "6,9,13",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "333,471,698"
+                    }
+                },
+                {
+                    "source": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "53,122",
+                        "endColumns": "68,65",
+                        "endOffsets": "119,185"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,126",
+                        "endColumns": "70,67",
+                        "endOffsets": "121,189"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/build/intermediates/res/merged/release/values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/src/main/res/values-v21/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}
