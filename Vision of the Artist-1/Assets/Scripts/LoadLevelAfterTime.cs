@@ -34,7 +34,10 @@ public class LoadLevelAfterTime : MonoBehaviour
         // Play animation
         transition.SetTrigger("Start");
 
-        musicAnim.SetTrigger("FadeOut");
+        if (musicAnim != null)
+        {
+            musicAnim.SetTrigger("FadeOut");
+        }
         // wait for animation to stop playing
         yield return new WaitForSeconds(transitionTime);
 
