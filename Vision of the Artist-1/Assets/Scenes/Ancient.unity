@@ -1024,7 +1024,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: musicAnim
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: a744c21f3d7b74a20bbef1178d9efd88, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: e79e66e38fbe94e0cb4ef7cc68fec86d, type: 2}
 --- !u!1 &1373220877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,
