@@ -707,7 +707,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 349490018427815744, guid: 2d0622729f011424587f5b59f76f04fe,
         type: 3}
@@ -20021,6 +20021,17 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 43563644}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2093330793}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -49797,7 +49808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2093330794
 Transform:
   m_ObjectHideFlags: 0
@@ -49806,7 +49817,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093330793}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.4, y: -10.9, z: 81.38}
+  m_LocalPosition: {x: 1.49, y: -5.28, z: 17.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 124089523}

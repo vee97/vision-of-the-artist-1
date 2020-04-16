@@ -16,6 +16,8 @@ public class LoadLevelAfterTime : MonoBehaviour
     public Animator transition;
     public float transitionTime = 1f;
 
+    public Animator musicAnim;
+
     private void Update()
     {
         timeElapsed += Time.deltaTime;
@@ -32,10 +34,22 @@ public class LoadLevelAfterTime : MonoBehaviour
         // Play animation
         transition.SetTrigger("Start");
 
+        musicAnim.SetTrigger("FadeOut");
         // wait for animation to stop playing
         yield return new WaitForSeconds(transitionTime);
 
+        // trigger fade out music animation
+        
+        //yield return new WaitForSeconds(transitionTime);
+
         // Load scene
         SceneManager.LoadScene(levelIndex);
+
+        
     }
+
+    //IEnumerator FadeMusic()
+    //{
+        
+    //}
 }
