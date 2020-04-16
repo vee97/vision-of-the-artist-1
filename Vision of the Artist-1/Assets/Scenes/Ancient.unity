@@ -298,6 +298,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 1018386202}
     m_Modifications:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1261669474}
@@ -359,7 +371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0.1
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
@@ -367,7 +379,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0.001
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineWidth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineWidth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineWidth
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
@@ -447,29 +531,125 @@ PrefabInstance:
     m_TransformParent: {fileID: 1018389278}
     m_Modifications:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 943803788}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: UpdateLineMaterial
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 943803788}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: UpdateLineMaterial
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 943803788}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: UpdateLineMaterial
       objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 78a0f3bf01d534c79a83322e6526ce97, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 78a0f3bf01d534c79a83322e6526ce97, type: 2}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
       value: OVRHandPrefab
@@ -968,7 +1148,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: d52137bf2b7c343fdb1b17f4950da80e, type: 2}
 --- !u!1 &999241217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,
@@ -981,63 +1161,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314639578}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &999241219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 999241217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f43a93b26274ddeb0cea161b6e38d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnIndexPinch:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMiddlePinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1261669474}
-        m_MethodName: UpdateLineWidth
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0.01
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnRingPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1261669474}
-        m_MethodName: UpdateLineWidth
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0.05
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnPinkyPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1261669474}
-        m_MethodName: UpdateLineWidth
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0.001
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1008323334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1468,11 +1591,11 @@ MonoBehaviour:
   objectToTrackMovement: {fileID: 999241217}
   minDistanceBeforeNewPoint: 0.01
   minFingerPinchStrength: 0.5
-  lineDefaultWidth: 0.01
+  lineDefaultWidth: 0.1
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: a744c21f3d7b74a20bbef1178d9efd88, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
 --- !u!1 &1373220877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,
@@ -1485,66 +1608,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 346277195}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1373220879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373220877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f43a93b26274ddeb0cea161b6e38d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnIndexPinch:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMiddlePinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: cc107f1856a9c4d12ba756cabe5881da,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnRingPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: d14828bc87e1c4c84a89fb09f936396a,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnPinkyPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 6498d4298a35c5c44894b5f194468896,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &1518333786
 GameObject:
   m_ObjectHideFlags: 0
