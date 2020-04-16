@@ -279,6 +279,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1018389278}
     m_Modifications:
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1261669474}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 65e6d27c001d840038aa30735455312f, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0, type: 2}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
       value: OVRHandPrefab
@@ -5771,7 +5807,7 @@ MonoBehaviour:
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0, type: 2}
 --- !u!1 &959674508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,7 +6028,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.001
+          m_FloatArgument: 0.01
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -6000,12 +6036,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1261669474}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
+        m_MethodName: UpdateLineWidth
+        m_Mode: 4
         m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0.001
           m_StringArgument: 
@@ -6536,66 +6571,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 346277195}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1373220879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373220877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17f43a93b26274ddeb0cea161b6e38d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnIndexPinch:
-    m_PersistentCalls:
-      m_Calls: []
-  OnMiddlePinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 65e6d27c001d840038aa30735455312f,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnRingPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: d14828bc87e1c4c84a89fb09f936396a,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnPinkyPinch:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 943803790}
-        m_MethodName: UpdateLineMaterial
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &1405056261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6833,7 +6808,7 @@ MonoBehaviour:
   - Creatures that eat away at your dreams and your future ambitions.
   - Secretly slowing you or even stopping you from pursuing your goals.
   - What does your Dream Eater look like?
-  - '[Pinch your index and thumb to draw and add your Dream Eater to the scene]'
+  - '[Pinch your right index and thumb to draw and add your Dream Eater to the scene]'
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 0}
