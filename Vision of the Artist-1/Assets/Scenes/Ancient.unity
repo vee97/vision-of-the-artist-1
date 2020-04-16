@@ -299,15 +299,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -379,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0.1
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -451,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_FloatArgument
-      value: 0.1
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
@@ -1143,12 +1143,12 @@ MonoBehaviour:
   handToTrack: 0
   objectToTrackMovement: {fileID: 1373220877}
   minDistanceBeforeNewPoint: 0.01
-  minFingerPinchStrength: 0.5
+  minFingerPinchStrength: 0.01
   lineDefaultWidth: 0.01
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: d52137bf2b7c343fdb1b17f4950da80e, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: a8d679e468c5f4d17a9e6a7f2b266dc0, type: 2}
 --- !u!1 &999241217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,
@@ -1590,12 +1590,12 @@ MonoBehaviour:
   handToTrack: 1
   objectToTrackMovement: {fileID: 999241217}
   minDistanceBeforeNewPoint: 0.01
-  minFingerPinchStrength: 0.5
-  lineDefaultWidth: 0.1
+  minFingerPinchStrength: 0.01
+  lineDefaultWidth: 0.01
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
-  defaultLineMaterial: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+  defaultLineMaterial: {fileID: 2100000, guid: a744c21f3d7b74a20bbef1178d9efd88, type: 2}
 --- !u!1 &1373220877 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112,

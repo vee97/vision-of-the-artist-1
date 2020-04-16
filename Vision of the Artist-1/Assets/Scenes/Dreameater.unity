@@ -280,9 +280,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1018389278}
     m_Modifications:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1261669474}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdateLineMaterial
@@ -290,7 +302,7 @@ PrefabInstance:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1261669474}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdateLineMaterial
@@ -298,7 +310,7 @@ PrefabInstance:
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1261669474}
+      objectReference: {fileID: 943803790}
     - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdateLineMaterial
@@ -315,6 +327,78 @@ PrefabInstance:
       propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 2100000, guid: d52137bf2b7c343fdb1b17f4950da80e, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 943803790}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: UpdateLineMaterial
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnRingPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: d52137bf2b7c343fdb1b17f4950da80e, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnMiddlePinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b10ad4fa50eff495ba0e908e2cc48aac, type: 2}
+    - target: {fileID: 1373220879, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
+      propertyPath: OnPinkyPinch.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: 65e6d27c001d840038aa30735455312f, type: 2}
     - target: {fileID: 1870938896605422, guid: 835e735ca71bf78459fb2cababd74112, type: 3}
       propertyPath: m_Name
       value: OVRHandPrefab
@@ -5590,7 +5674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 221}
+  m_AnchoredPosition: {x: 0, y: 165}
   m_SizeDelta: {x: 1646, y: 984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &705507993
@@ -6014,7 +6098,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.05
+          m_FloatArgument: 0.1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -6042,7 +6126,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.001
+          m_FloatArgument: 0.05
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -6438,7 +6522,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: delayBeforeLoading
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1456813653, guid: 2d0622729f011424587f5b59f76f04fe, type: 3}
       propertyPath: musicAnim
@@ -6558,7 +6642,7 @@ MonoBehaviour:
   objectToTrackMovement: {fileID: 999241217}
   minDistanceBeforeNewPoint: 0.01
   minFingerPinchStrength: 0.5
-  lineDefaultWidth: 0.01
+  lineDefaultWidth: 0.05
   defaultColor: {r: 1, g: 1, b: 1, a: 1}
   editorObjectToTrackMovement: {fileID: 0}
   allowEditorControls: 1
@@ -6832,7 +6916,7 @@ MonoBehaviour:
   - Creatures that eat away at your dreams and your future ambitions.
   - Secretly slowing you or even stopping you from pursuing your goals.
   - What does your Dream Eater look like?
-  - '[Pinch your right index and thumb to draw and add your Dream Eater to the scene]'
+  - '[Pinch your index and thumb to draw and add your Dream Eater to the scene]'
   typingSpeed: 0.06
   seconds: 3
   continueButton: {fileID: 0}

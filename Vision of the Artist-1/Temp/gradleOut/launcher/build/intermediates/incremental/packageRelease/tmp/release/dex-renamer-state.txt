@@ -1,4 +1,4 @@
-#Thu Apr 16 10:35:31 EDT 2020
+#Thu Apr 16 11:38:12 EDT 2020
 base.0=/Users/vivianwong/Documents/4 OCADU WINTER 2020/vision-of-the-artist-1/Vision of the Artist-1/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
 path.0=classes.dex
 renamed.0=classes.dex

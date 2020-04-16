@@ -359,7 +359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The manifestation of all dreameaters.
+  m_text: The manifestation of all dream eaters.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6cc94ee7539b14177acb83fa8b1912b8, type: 2}
   m_sharedMaterial: {fileID: 8175743323499985402, guid: 6cc94ee7539b14177acb83fa8b1912b8,
@@ -429,10 +429,10 @@ MonoBehaviour:
   m_margin: {x: -28.282183, y: 0, z: -57.94612, w: -13.803925}
   m_textInfo:
     textComponent: {fileID: 158315951}
-    characterCount: 37
+    characterCount: 38
     spriteCount: 0
-    spaceCount: 4
-    wordCount: 5
+    spaceCount: 5
+    wordCount: 6
     linkCount: 0
     lineCount: 2
     pageCount: 1
