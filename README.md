@@ -56,6 +56,14 @@ Dilmer Valecillos. "Oculus Quest Hand Tracking With Unity - VR Drawing Feature (
 
 Gabriel Aguiar Prod. "Unity 5 - Game Effects VFX - Glowing Orb" https://www.youtube.com/watch?v=ctmqr_8esT0
 
+Oculus. "Designing for Hands." https://developer.oculus.com/design/hands-design-intro/
+
+Oculus. "Hand Tracking." https://developer.oculus.com/documentation/unity/unity-handtracking/
+
+Oculus. "OVRInput." https://developer.oculus.com/documentation/unity/unity-ovrinput/
+
+Oculus. "User Interface Components." https://developer.oculus.com/design/hands-design-ui/
+
 Omnirift. "How to Fade UI Elements in Unity - Unity Fading Tutorial | Fade Out UI in Unity" https://www.youtube.com/watch?v=92Fz3BjjPL8&t
 
 SpeedTutor. "How to use 3D sounds in Unity." https://www.youtube.com/watch?v=p96RDBlNZRM
