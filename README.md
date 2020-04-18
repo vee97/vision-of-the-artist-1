@@ -10,7 +10,7 @@ See the documentation here: https://wong-vivian.format.com/vision-of-the-artist
 
 Alex Lusth. Hand Painted Textures. https://assetstore.unity.com/packages/2d/textures-materials/hand-painted-textures-31347
 
-Bensound. November https://www.bensound.com/royalty-free-music/track/november
+www.bensound.com. November https://www.bensound.com/royalty-free-music/track/november
 
 Ethan Lewis Maltby. HEROES Music Pack - BONUS https://assetstore.unity.com/packages/audio/music/orchestral/heroes-music-pack-bonus-144455
 
@@ -18,9 +18,13 @@ GreyRoad Studio. LowPoly Trees and Rocks https://assetstore.unity.com/packages/3
 
 LowlyPoly. Hand Painted Grass Texture. https://assetstore.unity.com/packages/2d/textures-materials/floors/hand-painted-grass-texture-78552
 
-Oculus. Oculus Integration. https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
+Mellow Sounds. 🔥 Cave Fire ASMR Sounds | Binaural | 4 Hours | Sleep Sounds https://www.youtube.com/watch?v=ZDpN9DnBIng&t
+
+Oculus. Oculus Integration https://assetstore.unity.com/packages/tools/integration/oculus-integration-82022
 
 Peder B. Helland. Soothing Relaxation https://soothingrelaxation.bandcamp.com/track/beautiful-relaxing-music-106-30-minutes
+
+Polygon Blog. Seamless Texture 2 https://polygonblog.com/seamless-texture-2/
 
 RAFMANIX. 2D Atlas Speech bubbles Alphabet Numbers. Speech Bubbles https://assetstore.unity.com/packages/2d/environments/2d-atlas-speech-bubbles-alphabet-numbers-88398
 
@@ -36,20 +40,24 @@ Unity Technologies. TextMeshPro. https://assetstore.unity.com/packages/essential
 
 
 ## Development References & Resources
-Alexander Zotov. How to fade out or fade in a game object with coroutine in Unity game | Unity 2D tutorial https://www.youtube.com/watch?v=oNz4I0RfsEg&t
+Alexander Zotov. "How to fade out or fade in a game object with coroutine in Unity game | Unity 2D tutorial" https://www.youtube.com/watch?v=oNz4I0RfsEg&t
 
-Blackthornprod. COOL DIALOG SYSTEM - EASY UNITY AND C# TUTORIAL https://www.youtube.com/watch?v=f-oSXg6_AMQ&t
+Blackthornprod. "COOL DIALOG SYSTEM - EASY UNITY AND C# TUTORIAL" https://www.youtube.com/watch?v=f-oSXg6_AMQ&t
 
-Blackthornprod. HOW TO MAKE MUSIC TRANSITIONS - EASY UNITY TUTORIAL https://www.youtube.com/watch?v=ToVL_f9G9Yk&t
+Blackthornprod. "HOW TO MAKE MUSIC TRANSITIONS - EASY UNITY TUTORIAL" https://www.youtube.com/watch?v=ToVL_f9G9Yk&t
 
 Brackeys. "How to Make AWESOME Scene Transitions in Unity!" https://www.youtube.com/watch?v=CE9VOZivb3I
 
-Dilmer Valecillos. Oculus Quest Hand Tracking With Unity - VR Drawing Feature Part 1 https://www.youtube.com/watch?v=A02vzFooYj8&t
+Brackeys. "How to make Terrain in Unity!" https://www.youtube.com/watch?v=MWQv2Bagwgk
 
-Dilmer Valecillos. Oculus Quest Hand Tracking With Unity - VR Drawing Feature (Source Code Review) Part 2 https://www.youtube.com/watch?v=DFijT_S6FpM&t
+Dilmer Valecillos. "Oculus Quest Hand Tracking With Unity - VR Drawing Feature Part 1" https://www.youtube.com/watch?v=A02vzFooYj8&t
 
-Omnirift. How to Fade UI Elements in Unity - Unity Fading Tutorial | Fade Out UI in Unity https://www.youtube.com/watch?v=92Fz3BjjPL8&t
+Dilmer Valecillos. "Oculus Quest Hand Tracking With Unity - VR Drawing Feature (Source Code Review) Part 2" https://www.youtube.com/watch?v=DFijT_S6FpM&t
 
-SpeedTutor. How to use 3D sounds in Unity. https://www.youtube.com/watch?v=p96RDBlNZRM
+Gabriel Aguiar Prod. "Unity 5 - Game Effects VFX - Glowing Orb" https://www.youtube.com/watch?v=ctmqr_8esT0
 
-Valem. HAND TRACKING with the Oculus Quest - Unity Tutorial https://www.youtube.com/watch?v=vSia7t_WlbQ
+Omnirift. "How to Fade UI Elements in Unity - Unity Fading Tutorial | Fade Out UI in Unity" https://www.youtube.com/watch?v=92Fz3BjjPL8&t
+
+SpeedTutor. "How to use 3D sounds in Unity." https://www.youtube.com/watch?v=p96RDBlNZRM
+
+Valem. "HAND TRACKING with the Oculus Quest - Unity Tutorial" https://www.youtube.com/watch?v=vSia7t_WlbQ
