@@ -2,7 +2,7 @@
 
 Vision of the Artist is an interactive VR experience designed for the Oculus Quest using Unity. It explores positive technologies used to inspire awe and self-acceptance through VR-assisted creative visualization and storytelling as a method to alleviate symptoms of anxiety and promote subjective well-being. The study discusses the significant role of using creative visualization and storytelling to increase positive affect in individuals of all ages.
 
-See the documentation here: https://wong-vivian.format.com/vision-of-the-artist
+See the documentation here: https://viviansiobhanwong.com/projects/vision-of-the-artist/
 
 
 
